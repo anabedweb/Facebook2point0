@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F31A68E32CFFDDD500EE488E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31A68CA2CFFDDD300EE488E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31A68D12CFFDDD300EE488E;
+			remoteInfo = "Wild Wild Western";
+		};
+		F31A68ED2CFFDDD500EE488E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31A68CA2CFFDDD300EE488E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31A68D12CFFDDD300EE488E;
+			remoteInfo = "Wild Wild Western";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F31A68D22CFFDDD300EE488E /* Wild Wild Western.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wild Wild Western.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31A68E22CFFDDD500EE488E /* Wild Wild WesternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wild Wild WesternTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31A68EC2CFFDDD500EE488E /* Wild Wild WesternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wild Wild WesternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F31A68D42CFFDDD300EE488E /* Wild Wild Western */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Wild Wild Western";
+			sourceTree = "<group>";
+		};
+		F31A68E52CFFDDD500EE488E /* Wild Wild WesternTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Wild Wild WesternTests";
+			sourceTree = "<group>";
+		};
+		F31A68EF2CFFDDD500EE488E /* Wild Wild WesternUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Wild Wild WesternUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31A68CF2CFFDDD300EE488E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A68DF2CFFDDD500EE488E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A68E92CFFDDD500EE488E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31A68C92CFFDDD300EE488E = {
+			isa = PBXGroup;
+			children = (
+				F31A68D42CFFDDD300EE488E /* Wild Wild Western */,
+				F31A68E52CFFDDD500EE488E /* Wild Wild WesternTests */,
+				F31A68EF2CFFDDD500EE488E /* Wild Wild WesternUITests */,
+				F31A68D32CFFDDD300EE488E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F31A68D32CFFDDD300EE488E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31A68D22CFFDDD300EE488E /* Wild Wild Western.app */,
+				F31A68E22CFFDDD500EE488E /* Wild Wild WesternTests.xctest */,
+				F31A68EC2CFFDDD500EE488E /* Wild Wild WesternUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31A68D12CFFDDD300EE488E /* Wild Wild Western */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31A68F62CFFDDD500EE488E /* Build configuration list for PBXNativeTarget "Wild Wild Western" */;
+			buildPhases = (
+				F31A68CE2CFFDDD300EE488E /* Sources */,
+				F31A68CF2CFFDDD300EE488E /* Frameworks */,
+				F31A68D02CFFDDD300EE488E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F31A68D42CFFDDD300EE488E /* Wild Wild Western */,
+			);
+			name = "Wild Wild Western";
+			packageProductDependencies = (
+			);
+			productName = "Wild Wild Western";
+			productReference = F31A68D22CFFDDD300EE488E /* Wild Wild Western.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F31A68E12CFFDDD500EE488E /* Wild Wild WesternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31A68F92CFFDDD500EE488E /* Build configuration list for PBXNativeTarget "Wild Wild WesternTests" */;
+			buildPhases = (
+				F31A68DE2CFFDDD500EE488E /* Sources */,
+				F31A68DF2CFFDDD500EE488E /* Frameworks */,
+				F31A68E02CFFDDD500EE488E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31A68E42CFFDDD500EE488E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F31A68E52CFFDDD500EE488E /* Wild Wild WesternTests */,
+			);
+			name = "Wild Wild WesternTests";
+			packageProductDependencies = (
+			);
+			productName = "Wild Wild WesternTests";
+			productReference = F31A68E22CFFDDD500EE488E /* Wild Wild WesternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F31A68EB2CFFDDD500EE488E /* Wild Wild WesternUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31A68FC2CFFDDD500EE488E /* Build configuration list for PBXNativeTarget "Wild Wild WesternUITests" */;
+			buildPhases = (
+				F31A68E82CFFDDD500EE488E /* Sources */,
+				F31A68E92CFFDDD500EE488E /* Frameworks */,
+				F31A68EA2CFFDDD500EE488E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31A68EE2CFFDDD500EE488E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F31A68EF2CFFDDD500EE488E /* Wild Wild WesternUITests */,
+			);
+			name = "Wild Wild WesternUITests";
+			packageProductDependencies = (
+			);
+			productName = "Wild Wild WesternUITests";
+			productReference = F31A68EC2CFFDDD500EE488E /* Wild Wild WesternUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31A68CA2CFFDDD300EE488E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F31A68D12CFFDDD300EE488E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					F31A68E12CFFDDD500EE488E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F31A68D12CFFDDD300EE488E;
+					};
+					F31A68EB2CFFDDD500EE488E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F31A68D12CFFDDD300EE488E;
+					};
+				};
+			};
+			buildConfigurationList = F31A68CD2CFFDDD300EE488E /* Build configuration list for PBXProject "Wild Wild Western" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31A68C92CFFDDD300EE488E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F31A68D32CFFDDD300EE488E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31A68D12CFFDDD300EE488E /* Wild Wild Western */,
+				F31A68E12CFFDDD500EE488E /* Wild Wild WesternTests */,
+				F31A68EB2CFFDDD500EE488E /* Wild Wild WesternUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31A68D02CFFDDD300EE488E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A68E02CFFDDD500EE488E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A68EA2CFFDDD500EE488E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31A68CE2CFFDDD300EE488E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A68DE2CFFDDD500EE488E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A68E82CFFDDD500EE488E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F31A68E42CFFDDD500EE488E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31A68D12CFFDDD300EE488E /* Wild Wild Western */;
+			targetProxy = F31A68E32CFFDDD500EE488E /* PBXContainerItemProxy */;
+		};
+		F31A68EE2CFFDDD500EE488E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31A68D12CFFDDD300EE488E /* Wild Wild Western */;
+			targetProxy = F31A68ED2CFFDDD500EE488E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F31A68F42CFFDDD500EE488E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F31A68F52CFFDDD500EE488E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F31A68F72CFFDDD500EE488E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wild Wild Western/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook2point0.Wild-Wild-Western";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F31A68F82CFFDDD500EE488E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wild Wild Western/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook2point0.Wild-Wild-Western";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F31A68FA2CFFDDD500EE488E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook2point0.Wild-Wild-WesternTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wild Wild Western.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wild Wild Western";
+			};
+			name = Debug;
+		};
+		F31A68FB2CFFDDD500EE488E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook2point0.Wild-Wild-WesternTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wild Wild Western.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wild Wild Western";
+			};
+			name = Release;
+		};
+		F31A68FD2CFFDDD500EE488E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook2point0.Wild-Wild-WesternUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wild Wild Western";
+			};
+			name = Debug;
+		};
+		F31A68FE2CFFDDD500EE488E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook2point0.Wild-Wild-WesternUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wild Wild Western";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31A68CD2CFFDDD300EE488E /* Build configuration list for PBXProject "Wild Wild Western" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A68F42CFFDDD500EE488E /* Debug */,
+				F31A68F52CFFDDD500EE488E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31A68F62CFFDDD500EE488E /* Build configuration list for PBXNativeTarget "Wild Wild Western" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A68F72CFFDDD500EE488E /* Debug */,
+				F31A68F82CFFDDD500EE488E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31A68F92CFFDDD500EE488E /* Build configuration list for PBXNativeTarget "Wild Wild WesternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A68FA2CFFDDD500EE488E /* Debug */,
+				F31A68FB2CFFDDD500EE488E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31A68FC2CFFDDD500EE488E /* Build configuration list for PBXNativeTarget "Wild Wild WesternUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31A68FD2CFFDDD500EE488E /* Debug */,
+				F31A68FE2CFFDDD500EE488E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31A68CA2CFFDDD300EE488E /* Project object */;
+}
