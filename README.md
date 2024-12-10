@@ -1,2 +1,2 @@
 # Facebook2point0
-app
+A "competitive" dating app for students at Western Washington University.
